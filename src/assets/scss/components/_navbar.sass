@@ -1,0 +1,52 @@
+nav ul.vertical.menu 
+	margin-top: 50px
+.title-bar
+	height: 70px
+	display: flex 
+	align-items: center
+	padding-left: 90px
+	+breakpoint(large) 
+		padding-left: 20px
+	padding-right: 50px
+	background: #1A386B
+	margin-bottom: 30px
+
+button.close-button.button
+	display: block
+	width: 100%
+	height: 40px
+	font-size: 14px
+	color: #fff
+	+breakpoint(large)
+		display: none 
+
+button.Menu-Toggle 
+	position: fixed
+	top: 5px
+	left: 5px
+	z-index: 30
+	width: 60px
+	height: 60px
+	background: #BF1E2E
+	border-radius: 50%
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+	+breakpoint(large)
+		display: none
+	&:hover
+		width: 70px
+		height: 70px
+button.Save 
+	position: fixed
+	right: 10px
+	bottom: 10px
+	z-index: 30
+	width: 60px
+	height: 60px
+	background: #BF1E2E
+	border-radius: 50%
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+	&:hover
+		width: 70px
+		height: 70px
